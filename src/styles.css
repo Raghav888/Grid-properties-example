@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.child {
+  background-color: blueviolet;
+  border-radius: 4px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container {
+  display: grid;
+  grid-gap: 20px;
+
+  /* grid-template-columns: repeat(3, 1fr); */
+}
+
+.child:nth-child(3) {
+  background-color: hotpink;
+}
